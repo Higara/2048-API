@@ -9,7 +9,6 @@
 
     <script type="text/javascript" src="jquery.js"></script>
     <script type='text/javascript' src='keyboard_instruction.js'></script>
-    <script type="text/javascript" src="swipe.js"></script>
     <script type="text/javascript" src="unsplash.js"></script>
 
 
@@ -19,12 +18,13 @@
 
     <div class="container">
         <div id="title">2048</div>
-        <button onclick="new_game()">Nouvelle partie !</button>
+        <a href="#" class="myButton" onclick="new_game()">Nouvelle partie</a>
 
         <div id='mazone'></div>
 
         <div class="game_container">
-            <input type="button" onclick="alert('Le but du jeu est de faire glisser des tuiles sur une grille, pour combiner les tuiles de mêmes valeurs et créer ainsi une tuile portant le nombre 2048. Le joueur peut toutefois continuer à jouer après cet objectif atteint pour faire le meilleur score possible.')" value="Règle du jeu 2048">
+            <a href="#" class="myButton" onclick="alert('Le but du jeu est de faire glisser des tuiles sur une grille, pour combiner les tuiles de mêmes valeurs et créer ainsi une tuile portant le nombre 2048. Le joueur peut toutefois continuer à jouer après cet objectif atteint pour faire le meilleur score possible.')">Règles du jeu</a>
+        
             <form>
 
                 Background:<br>
