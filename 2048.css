@@ -1,3 +1,8 @@
+.my-element {
+    background: no-repeat;
+    background-size: cover;
+
+}
 body {
     width: center;
     margin: 0;
@@ -6,78 +11,45 @@ body {
     color: #ffffff;
     font-family: "Clear Sans", "Helvetica Neue", Arial, sans-serif;
     font-size: 18px;
-    background-size: 400% 400%;
-    background: linear-gradient(#470068, #d496f0);
-    /*  background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB, #6aee19, #e5401b);
-
-    -webkit-animation: Gradient 5s ease infinite;
-    -moz-animation: Gradient 5s ease infinite;
-    animation: Gradient 5s ease infinite;
-}
-
-@-webkit-keyframes Gradient {
-    0% {
-        background-position: 0% 50%
-    }
-    50% {
-        background-position: 100% 50%
-    }
-    100% {
-        background-position: 0% 50%
-    }
-}
-
-@-moz-keyframes Gradient {
-    0% {
-        background-position: 0% 50%
-    }
-    50% {
-        background-position: 100% 50%
-    }
-    100% {
-        background-position: 0% 50%
-    }
-}
-
-@keyframes Gradient {
-    0% {
-        background-position: 0% 50%
-    }
-    50% {
-        background-position: 100% 50%
-    }
-    100% {
-        background-position: 0% 50%
-    }
-}
-
-
-*/
 }
 
 #title {
-    color: #808080;
-    margin-left: 200px;
-    font-size: 4em;
+    color: #ffffff;
+    margin: 5%;
+    text-align:center;
+    font-size: 5vw;
 }
 
 #tableau {
+    align: center;
+    z-index: 3;
+    margin-bottom: 50px;
+    margin-top: 15px;
+    width: 412px;
+    height: 100%;
+    box-sizing: border-box;
+    border: 6px solid #ffffffbe;
+    border-radius: 10px;
+    background-color: rgba(122, 122, 122, 0.596);
+
+    -moz-box-shadow: 5px 15px 12px #aaa;
+    -o-box-shadow: 15px 15px 12px #aaa;
+}
+
+#placeholder {
+    z-index: 2;
     margin-top: 15px;
     width: 410px;
     height: 100%;
     box-sizing: border-box;
-    border: 6px solid #ffffff;
-    border-radius: 10px;
-    background-color: #ffffff00;
-    -moz-box-shadow: 5px 15px 12px #aaa;
-    -o-box-shadow: 15px 15px 12px #aaa;
+    
 }
 
 .row {
     width: 420px;
     height: 100px;
     box-sizing: border-box;
-    border: 0px solid #000000;
+    border: 0px solid #ffffffbe;
 }
 
 .col, .popup {
@@ -89,7 +61,7 @@ body {
     text-align: center;
     vertical-align: top;
     float: left;
-    border: 6px solid #ffffff;
+    border: 6px solid #ffffffbe;
     background-color: #93939300;
     padding-top: 25px;
 }
@@ -131,14 +103,4 @@ body {
     height: 40px;
     line-height: 42px;
     text-align: center;
-}
-.record {
-    background: #8f7a66;
-    border-radius: 3px;
-    padding: 0 40px;
-    text-decoration: none;
-    color: #f9f6f2;
-    height: 20px;
-	width: 30 px;
-	text-align: center;
 }
