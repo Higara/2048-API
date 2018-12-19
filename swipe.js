@@ -10,6 +10,12 @@ jQuery(document).ready(function(){
 	function swipeRight(event){
 		alert("niceuright");
 	}
+	function swipeDown(event){
+		alert("niceudown");
+	}
+	function swipeUp(event){
+		alert("niceuup");
+	}
 });
 	
 

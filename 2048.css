@@ -1,3 +1,8 @@
+.my-element {
+    background: no-repeat;
+    background-size: cover;
+
+}
 body {
     width: center;
     margin: 0;
@@ -6,62 +11,16 @@ body {
     color: #ffffff;
     font-family: "Clear Sans", "Helvetica Neue", Arial, sans-serif;
     font-size: 18px;
-    background-size: 400% 400%;
-    background: linear-gradient(#470068, #d496f0);
-    /*  background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB, #6aee19, #e5401b);
-
-    -webkit-animation: Gradient 5s ease infinite;
-    -moz-animation: Gradient 5s ease infinite;
-    animation: Gradient 5s ease infinite;
-}
-
-@-webkit-keyframes Gradient {
-    0% {
-        background-position: 0% 50%
-    }
-    50% {
-        background-position: 100% 50%
-    }
-    100% {
-        background-position: 0% 50%
-    }
-}
-
-@-moz-keyframes Gradient {
-    0% {
-        background-position: 0% 50%
-    }
-    50% {
-        background-position: 100% 50%
-    }
-    100% {
-        background-position: 0% 50%
-    }
-}
-
-@keyframes Gradient {
-    0% {
-        background-position: 0% 50%
-    }
-    50% {
-        background-position: 100% 50%
-    }
-    100% {
-        background-position: 0% 50%
-    }
-}
-
-
-*/
 }
 
 #title {
     color: #808080;
-    margin-left: 200px;
+    text-align:center;
     font-size: 4em;
 }
 
 #tableau {
+    z-index: 3;
     margin-top: 15px;
     width: 410px;
     height: 100%;
@@ -71,6 +30,15 @@ body {
     background-color: #ffffff00;
     -moz-box-shadow: 5px 15px 12px #aaa;
     -o-box-shadow: 15px 15px 12px #aaa;
+}
+
+#placeholder {
+    z-index: 2;
+    margin-top: 15px;
+    width: 410px;
+    height: 100%;
+    box-sizing: border-box;
+    
 }
 
 .row {
